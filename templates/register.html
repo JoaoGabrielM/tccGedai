@@ -1,8 +1,6 @@
 <form class="form" method="post">
   {% csrf_token %} <!-- Tag de segurança do django não a remova /!-->
   {{ form }} <!-- Tag para gerar o formulario /!-->
-  <button type="submit">Entrar</button>
+  <button type="submit">Criar</button>
 </form>
 <br>
- <a href="{%url 'register'%}"> Cadastrar Usuario</a>
-<p><a href="#"> Esqueci minha senha</a></p>
